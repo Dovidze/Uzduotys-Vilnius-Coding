@@ -7,19 +7,21 @@ h3 {
 }
 table {
     border-collapse: collapse;
+    overflow: hidden;
     width: 150px;
     text-align: left;
     /* width: 100%; */
     width: auto;
     margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid  #019879;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 thead {
-    background: #3d89f7;
+    background: #019879;
     color: white;
-    border-top: 1px solid #2863b6;
-    border-left: 1px solid #2863b6;
-    border-right: 1px solid #2863b6;
 }
 
 tr {
@@ -28,17 +30,20 @@ tr {
 }
 
 td {
-    width: 200px;
-    background-color: white;
-    border-bottom: 4px solid #f8f9fd;
+    width: 100px;
+    border-bottom: 2px solid #dddddd;
 }
 
-.nr {
+.studentRow {
+    color: #019879;
     font-weight: bold;
-    width: 120px;
-    padding-left: 30px;
+    background-color: #f3f3f3;
 }
 
-.email {
-    width: 400px;
+.space {
+    padding-left: 20px;
 }
+.noBorder td {
+    border: none;
+}
+
