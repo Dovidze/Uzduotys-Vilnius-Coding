@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fd;
+    font-family: 'Times New Roman', Times, serif;
+}
+table {
+    border-collapse: collapse;
+    width: 150px;
+    text-align: left;
+    /* width: 100%; */
+    width: auto;
+     margin: 0 auto;
+}
+
+thead {
+    background: #3d89f7;
+    color: white;
+}
+
+tr {
+    height: 50px;
+    
+}
+th {
+    padding-left: 30px;
+}
+
+td {
+    width: 200px;
+    background-color: white;
+    border-bottom: 2px solid #f8f9fd;
+    padding-left: 30px;
+}
+
+.nr {
+    font-weight: bold;
+    width: 100px;
+}
+
+.email {
+    width: 400px;
+}

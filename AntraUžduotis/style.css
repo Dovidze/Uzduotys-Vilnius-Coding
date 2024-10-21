@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.pagrdTable{
+    border : none;
+    width: 500px;
+    
+}
+thead {
+    color: white;
+    background-color: black;
+}
+.dienos {
+    background-color: gray;
+}
+tbody .weekend {
+    color: rgb(121, 121, 121);
+}
