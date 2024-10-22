@@ -1,0 +1,23 @@
+body{
+    background-color:#dedef5;
+    font-family: "Open-Sans";
+}
+div {
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 0 black;
+}
+button {
+    background-color: #333345;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+@font-face {
+    font-family: "Open-Sans";
+    src: url("fonts/OpenSans-VariableFont.ttf");
+}   
