@@ -1,0 +1,51 @@
+body {
+    color: #192123;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main {
+    width: 500px;
+    height: 200px;
+    background-color: #192123;
+}
+
+.parentBigBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.childBigBox {
+    margin-top: 50px;
+    width: 90px;
+    height: 90px;
+    background-color:#b4e900;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.parentSmallBoxes {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.childSmallBox {
+    width: 5px;
+    height: 5px;
+    background-color:#b4e900;
+}
+
+.noActiveBig {
+    background-color: #4b5659;
+}
+
+.noActiveSml {
+    background-color: #95a5a6;
+}
