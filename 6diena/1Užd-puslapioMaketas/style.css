@@ -1,0 +1,168 @@
+
+ * {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-contents {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+.pirmas div {
+  width: 50%;
+  margin-left: 30px;
+  color: white;  
+}
+
+.pirmas {
+    background-image: url(https://picsum.photos/id/237/1000/1000);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 650px;
+}
+
+.antras div {
+    width: 50%;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.antras {
+      background-image: url(https://picsum.photos/id/240/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.trecias div {
+    width: 50%;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.trecias {
+      background-image: url(https://picsum.photos/id/251/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.ketvirtas div {
+    width: 50%;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.ketvirtas {
+      background-image: url(https://picsum.photos/id/240/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.penktas div {
+    width: 50%;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.penktas {
+      background-image: url(https://picsum.photos/id/251/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.sestas div {
+    width: 50%;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.sestas {
+      background-image: url(https://picsum.photos/id/240/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.septintas div {
+    width: 50%;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.septintas {
+      background-image: url(https://picsum.photos/id/251/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}
+
+.astuntas div {
+    width: 50%;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;  
+}
+  
+.astuntas {
+      background-image: url(https://picsum.photos/id/240/1500/1500);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 650px;
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
