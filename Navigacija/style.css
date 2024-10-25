@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    color: white;
 }
 
 ul {
@@ -16,7 +17,7 @@ ul {
 
 header {
     background-color: black;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 header nav ul {
@@ -28,4 +29,7 @@ header nav a {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+}
+p {
+    color: brown;
 }

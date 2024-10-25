@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fa4299;
+    margin: 0;
+    font-family: "Teko", serif;
+}
+.main {
+    width: 200px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+}
+.loginSign {
+    margin-bottom: 10px;
+    width: 180;
+    display: flex;
+    justify-content: center;
+}
+.loginSign button {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.login {
+    background-color: #fa4299;
+    color: white;
+}
+.loginSign {
+    background-color: white;
+}
+input {
+    padding: 4px;
+}
+.firstInput {
+    margin-bottom: 10px;
+}
+.loginButton {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+}
+a{
+    color: #fa4299;
+    text-decoration: none;
+    font-size: 12px;
+}

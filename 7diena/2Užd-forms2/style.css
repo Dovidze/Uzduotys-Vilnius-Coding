@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e3f2fd;
+    margin: 0;
+}
+.main {
+    width: 500px;
+    background-color: white;
+    margin: 20PX auto;
+    padding: 20px;
+}
+
+.nullDiv, .firstDiv, .secondDiv, .thirdDiv {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstDiv input {
+    width: 80px;
+}
+h3, p {
+    margin: 0;
+    font-size: 12px;
+}
+p {
+    color: gray;
+}
+button {
+    width: 100%;
+    background-color: #2962ff;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.mmyy {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mmyy p {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(219, 219, 219);
+}
+.cardInput {
+    width: 100%;
+    text-align: left;
+    background-color: #fafafa;
+}
+a{
+    color: #2962ff;
+    text-decoration: none;
+}
