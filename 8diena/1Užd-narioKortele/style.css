@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: "Teko", serif;
+}
+.main {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.foto {
+height: 100%;
+width: 400px;
+position: absolute;
+}
+.text {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    justify-content: center;
+}
+p, h2 {
+    margin: 0;
+    line-height: 1.7;
+}
+.textas {
+    margin-top: 40px;
+}
+p {
+    color: gray;
+}
+img {
+    height: 100%;
+}
+.icons {
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    background-color: greenyellow;
+    bottom: 20px;
+    left: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    line-height: 25px;
+}
