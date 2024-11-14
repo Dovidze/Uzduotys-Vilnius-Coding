@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(./fotos/landingPageBg.svg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color:white;
+}
+
+.firstSection, 
+.secondSection, 
+.thirdSection,
+.fourthSection,
+.fifthSection {
+    position: relative;
+}
+
+button {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5454D4;
+    border: none;
+    border-radius: 4px;
+    color: white;
+
+}
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Header */
+header .right-img {
+    display: none;
+}
+
+header {
+    margin-top: 50px;
+}
+
+header .container .right-a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+header .container li .blueA {
+    color:#5454D4;
+}
+
+header .container li a {
+    font-size: 18px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* First section */
+
+.icon1sc {
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+    right: 90px;
+}
+.firstSection .container {
+    gap: 10px;
+}
+.firstSection .halfLeft {
+    width: 50%;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.firstSection .halfLeft h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.firstSection .halfLeft p {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.firstSection .halfLeft button {
+    padding: 14px 30px;
+}
+
+.firstSection .halfRight img {
+    width: 100%;
+}
+
+/* Second section */
+
+.secondSection {
+    margin-top: 100px;
+}
+
+.secondSection .container{
+    margin-bottom: 50px;
+}
+.secondSection .container {
+    gap: 60px;
+}
+.secondSection .halfLeft {
+    width: 50%;
+    margin-bottom: 30px;
+}
+.secondSection .halfLeft h1 {
+    font-size: 60px;
+}
+.secondSection .halfRight p {
+    font-size: 21px;
+}
+.secondSection .relFoto {
+    position: relative;
+}
+
+.secondSection .relFoto img {
+    width: 100%;
+}
+
+.secondSection .playBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5454D4;
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+}
+
+.secondSection .playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Third Section */
+
+.thirdSection {
+    margin-top: 120px;    
+}
+.thirdSection .container {
+    justify-content: center;
+}
+
+.thirdSection .container h1 {
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+}
+
+.firstHalf, .secondHalf {
+    gap: 150px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.thirdSection .sixBox h2 {
+    font-size: 28px;
+}
+
+.thirdSection .sixBox p {
+    font-size: 20px;
+}
+
+/* Fourth Section */
+
+.fourthSection {
+    margin-top: 150px;    
+}
+
+.fourthSection .container h1{
+    font-size: 58px;   
+}
+
+.fourthSection .container:last-child {
+    margin: 0 20px;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.fourthSection img {
+    width: 100%;
+}
+
+.fourthSection .container:last-child .secondBox {
+    padding-top: 60px;
+}
+.fourthSection .container:last-child .thirdBox {
+    padding-top: 120px;
+}
+
+.fourthSection .container:last-child .onePhotoOnMobile {
+    display: none;
+}
+.fourthSection .container:last-child .left {
+    display: none;
+    
+}
+.fourthSection .container:last-child .right {
+    display: none;
+    
+}
+
+/* Fifth Section */
+
+.fifthSection {
+    margin-top: 150px;    
+}
+
+.fifthSection .container .left {
+    width: 60%;
+      
+}
+
+.fifthSection .container {
+    align-items: center;      
+}
+
+.fifthSection .container .right button{
+    padding: 16px 49px;
+    font-size: 21px;      
+}
+
+
+.fifthSection .container h1{
+    font-size: 58px;   
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+footer .container li a {
+    font-size: 18px;
+}
+
+/* footer .container {
+    gap: 100px;
+} */
+
+footer nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        max-width: 375px;
+    }
+
+    header, main, footer {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* header */
+
+    header nav {
+        display: none;
+    }
+    header .right-a {
+        display: none;
+    }
+    header .right-img {
+        display: block;
+    }
+  
+    /* First Section */
+
+    .firstSection .halfLeft{
+        margin-top: 20px;
+    }
+
+    .firstSection .container {
+        gap: 0;
+        flex-direction: column;
+    }
+    .firstSection .halfLeft h1 {
+        font-size: 42px;
+    }
+    .firstSection .halfLeft {
+        width: 100%;
+    }
+    
+    /* Second Section */
+
+    .secondSection .container {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .secondSection .halfLeft h1 {
+        font-size: 36px;
+    }
+
+    .secondSection .halfLeft p {
+        font-size: 16px;
+    }
+
+    .secondSection .halfLeft {
+        width: 100%;
+    }
+
+    .secondSection .playBox {
+        width: 40px;
+        height: 40px;
+    }
+
+    .secondSection .playIcon svg {
+        width: 20px;
+        height: 22px;
+    }
+
+    /* Third Section */
+
+    .thirdSection .container h1 {
+        font-size: 36px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstHalf, .secondHalf {
+        gap: 0;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .thirdSection .box {
+        margin: 50px 10px;
+    }
+
+    .thirdSection .box:first-child {
+        margin-top: 100px;
+    }
+
+    /* Fourth Section */
+
+    .fourthSection .container h1{
+        font-size: 36px;   
+    }
+
+    .firstBox, .secondBox, .thirdBox {
+        display: none;
+    }
+
+    .fourthSection .container:last-child {
+        margin: 0;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .fourthSection .container:last-child .onePhotoOnMobile {
+        display: block;
+    }
+
+    .fourthSection .container:last-child .photoButtons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .fourthSection .container:last-child .left {
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-color: gray;
+        border-radius: 50%;
+        position: relative; 
+    }
+
+    .fourthSection .container:last-child .right {
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-color: #5454D4;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .fourthSection .container:last-child svg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 22px;
+    }
+
+    /* Fifth Section */
+
+    .fifthSection .container h1{
+        font-size: 38px;   
+    }
+
+    .fifthSection .container {
+        margin: 0;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: start;    
+        
+    }
+    .fifthSection .container .left {
+        width: 100%;   
+        
+    }
+
+    .fifthSection .container .right button{
+        padding: 11px 43px;
+        font-size: 16px;
+        margin-top: 30px;      
+    }
+
+    /* Footer */
+
+    footer .container {
+        flex-direction: column;
+        margin-top: 50px; 
+    }    
+    
+    footer .container ul {
+        flex-direction: column; 
+    }
+
+    footer .container ul li {
+        margin-bottom: 30px;
+    }
+
+    footer .right-a {
+        margin-top: 20px;
+    }
+
+    footer .left {
+        margin-bottom: 44px;
+    }
+}
+
+

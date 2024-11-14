@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: "Inter", serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2 {
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 84px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* CSS Column Grid */
+
+.row {
+    display: flex;
+    gap: var(--container-gutter)
+}
+
+.col {
+    width: 100%;
+}
+
+.col-1 {
+    width: 8.333333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333333333333%;
+}
+.col-5 {
+    width: 41.66666666666667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333333333333%;
+}
+.col-8 {
+    width: 66.66666666666667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333333333333%;
+}
+.col-11 {
+    width: 91.66666666666667%;
+}
+.col-12 {
+    width: 100%;
+}
+
+/* General Classes */
+
+.container {
+    max-width: calc(1200px + var(--container-gutter) * 2);
+    padding-left: var(--container-gutter);
+    padding-right: var(--container-gutter);
+    margin: 0 auto;
+    height: 100%;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.button {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 16px 32px;
+    color: var(--color);
+    display: block;
+    width: fit-content;
+    transition: all .1s ease-in;
+}
+
+/* Header */
+
+header .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 0;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+
+header nav .blueA {
+    color:#035E89;
+    font-weight: bold;
+}
+
+.hide-dekstop {
+    display: none;
+}
+
+header .buttons-nav {
+    display:flex;
+    gap: 10px;
+}
+
+header .buttons-nav a {
+    display: block;
+    border-radius: 4px;
+}
+
+header .buttons-nav a:first-child {
+    background-color: #035E89;
+    color: white;
+    padding: 14px 36px;
+}
+
+header .buttons-nav a:last-child {
+    border: 1px solid #035E89;
+    color:#035E89;
+    padding: 14px 35px;
+}
+
+/* firstSection */
+
+.firstSection {
+   background:
+        linear-gradient(to right, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 100%),
+        url(section1Image.svg);
+   height: 680px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 20px;
+}
+
+.firstSection h1{
+    font-size: 70px;
+    color: #035E89;
+    font-weight: bolder;
+    line-height: 130%;
+}
+
+.firstSection p{
+    margin: 80px 0;
+    font-size: 24px;
+    width: 70%;
+    line-height: 100%;
+}
+
+.firstSection .row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.firstSection .buttons a:first-child{
+    border: 1px solid #035E89;
+    background-color: #035E89;
+    border-radius: 4px;
+    padding: 13px 37px;
+    color: white;
+    margin-right: 10px;
+    
+}
+.firstSection .buttons a:last-child{
+    border: 1px solid #035E89;
+    border-radius: 4px;
+    padding: 14px 36px;
+    color: #035E89;
+}
+
+.imageSection {
+    display: none;
+}
+
+@media screen and (max-width: 1060px) {
+
+    div.hide-mobile {
+        display: none;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+    
+    .hide-dekstop {
+        display: block;
+    }
+    /* header */
+
+    
+  
+    .firstSection {
+        background:none;
+        margin-top: 10px;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .firstSection div.col-8 {
+        width: 100%;
+    }
+
+
+    .firstSection h1 {
+        font-size: 38px;
+    }
+
+    .firstSection p {
+        width: 100%;
+        font-size: 14px;
+        margin: 30px 0;
+    }
+
+    .firstSection .buttons {
+        margin-top: 30px;
+    }
+
+    .firstSection .buttons a:first-child{
+        padding: 6px 14px;
+        
+    }
+    .firstSection .buttons a:last-child{
+        padding: 6px 13px;
+    }
+
+    .imageSection {
+        width: 100%;
+        display: block;
+        height: 600px;
+        background:
+        linear-gradient(to top, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.9) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 100%),
+        url(section1Image.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}

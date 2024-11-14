@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+h2, h3, p {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    
+}
+.left {
+    width: 60%;
+    height: 100%;
+    background-image: url(./foto/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftContent {
+    color:white;
+}
+
+.leftContent p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.leftContent h2 {
+    font-size: 40px;
+}
+.leftContent button {
+    padding: 8px 30px;
+    border-radius: 15px;
+    background-color: #0575E6;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContent p {
+    margin-bottom: 30px;
+}
+
+.rightContent h3{
+    font-size: 26px;
+}
+
+.rightContent .welcomeText {
+    font-size: 18px;
+}
+
+.rightContent input {
+    width: 307px;
+    margin-bottom: 13px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.rightContent button {
+    width: 307px;
+    color: white;
+    background-color: #0575E6;
+    padding: 20px 26px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 13px;
+    
+}
+.rightContent form p {
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+.bi {
+    position: absolute;
+            left: 18px;
+            top: 18px
+}
+.relative {
+    position: relative;
+}

@@ -1,0 +1,2 @@
+console.log("-----Šešta užduotis-----");
+
