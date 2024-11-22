@@ -14,6 +14,7 @@ for (let i = 1; i <= 3000; i++) {
     }
 } 
 console.log(stringas)
+
 for (let i = 0; i < stringas.length-1; i++) {
 
     galStringas += stringas[i]
